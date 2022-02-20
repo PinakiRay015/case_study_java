@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ANDROID-MINOR-JAN</string>
+    <string name="heading">QuizApp</string>
+    <string name="name">Enter your name</string>
+    <string name="startButton">Start</string>
+    <string name="aboutButton">About</string>
+    <string name="Developers">Developers</string>
+    <string name="dev1">Yugesh Verma</string>
+    <string name="email1">projectworldsofficial@gamil.com</string>
+    <string name="email2">Gajendrapradhan@gmail.com</string>
+    <string name="dev2">Gajendra pradhan</string>
+    <string name="BackBtn">Back</string>
+    <string name="Option1">Opt1</string>
+    <string name="Option2">Opt2</string>
+    <string name="Option3">Opt3</string>
+    <string name="Option4">Opt4</string>
+    <string name="Button1">NEXT QUESTION</string>
+    <string name="Button2">QUIT</string>
+    <string name="question">Your Questions</string>
+    <string name="score">Your Score</string>
+    <string name="score1">Score</string>
+</resources>
