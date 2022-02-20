@@ -60,8 +60,6 @@ public class quizField extends AppCompatActivity {
         submitbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //int color = mBackgroundColor.getColor();
-                //mLayout.setBackgroundColor(color);
 
                 if(radio_g.getCheckedRadioButtonId()==-1)
                 {
@@ -70,7 +68,6 @@ public class quizField extends AppCompatActivity {
                 }
                 RadioButton uans = (RadioButton) findViewById(radio_g.getCheckedRadioButtonId());
                 String ansText = uans.getText().toString();
-//                Toast.makeText(getApplicationContext(), ansText, Toast.LENGTH_SHORT).show();
                 if(ansText.equals(answers[flag])) {
                     correct++;
                     Toast.makeText(getApplicationContext(), "Correct", Toast.LENGTH_SHORT).show();
