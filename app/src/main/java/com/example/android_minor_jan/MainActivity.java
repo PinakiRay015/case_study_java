@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 String str = nameEntry.getText().toString().trim();
                 if (str.isEmpty()||str.length()==0 || str.equals("")||str==null)
                 {
-                    Toast.makeText(getApplicationContext(), "Please Enter your name", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "First Enter Your Name to Start a Quiz", Toast.LENGTH_SHORT).show();
                 }
                 else
                 {

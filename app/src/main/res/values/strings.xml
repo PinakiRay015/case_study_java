@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ANDROID-MINOR-JAN</string>
+    <string name="app_name">Quiz</string>
     <string name="heading">QuizApp</string>
     <string name="name">Enter your name</string>
     <string name="startButton">Start</string>
