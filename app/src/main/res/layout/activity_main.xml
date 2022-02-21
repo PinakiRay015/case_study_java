@@ -16,25 +16,25 @@
         android:text="@string/heading"
         android:textColor="#db222a"
         android:textAlignment="center"
-        android:textSize="40sp"
+        android:textSize="70sp"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/nameEntry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/nameEntry"
-        app:layout_constraintTop_toBottomOf="@id/Heading"
         android:layout_marginHorizontal="30dp"
-        android:layout_marginTop="150dp"
-        android:hint="@string/name"
-        android:textSize="20sp"
-        android:textColorHint="@color/black"
+        android:layout_marginTop="84dp"
         android:autofillHints="name"
+        android:hint="@string/name"
         android:textColor="#ff4d6d"
-        />
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/Heading"
+        tools:layout_editor_absoluteX="30dp" />
 
     <Button
         android:layout_width="match_parent"
@@ -49,15 +49,15 @@
         />
 
     <Button
+        android:id="@+id/AboutButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/StartButton"
         android:layout_marginHorizontal="30dp"
-        android:layout_marginTop="50dp"
-        android:id="@+id/AboutButton"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#023e8a"
         android:text="@string/aboutButton"
         android:textSize="18sp"
-        android:backgroundTint="#023e8a"
-        />
+        app:layout_constraintTop_toBottomOf="@id/StartButton"
+        tools:layout_editor_absoluteX="30dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
