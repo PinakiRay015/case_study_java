@@ -39,7 +39,7 @@ public class result extends AppCompatActivity {
         btnRestart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in = new Intent(getApplicationContext(),MainActivity.class);
+                Intent in = new Intent(getApplicationContext(),intro.class);
                 startActivity(in);
             }
         });

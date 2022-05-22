@@ -1,15 +1,14 @@
 <resources>
     <string name="app_name">Quiz</string>
-    <string name="heading">QuizApp</string>
     <string name="name">Enter your name</string>
     <string name="startButton">Start</string>
     <string name="aboutButton">About</string>
-    <string name="Developers">Developers</string>
-    <string name="dev1">Yugesh Verma</string>
-    <string name="email1">projectworldsofficial@gamil.com</string>
-    <string name="email2">Gajendrapradhan@gmail.com</string>
-    <string name="dev2">Gajendra pradhan</string>
-    <string name="BackBtn">Back</string>
+    <string name="startQuiz">Start Quiz</string>
+    <string name="about1">This is java</string>
+    <string name="about2">Quiz application</string>
+    <string name="about3">1)Simple UI\n2)Easy Question\n3)View Score\n4)Share with Friends</string>
+    <string name="about4">Thanks</string>
+    <string name="about5">For using</string>
     <string name="Option1">Opt1</string>
     <string name="Option2">Opt2</string>
     <string name="Option3">Opt3</string>

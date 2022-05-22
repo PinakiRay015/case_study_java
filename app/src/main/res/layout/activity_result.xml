@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/result"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".result">
@@ -18,11 +19,9 @@
         android:layout_marginStart="26dp"
         android:layout_marginTop="131dp"
         android:layout_marginEnd="34dp"
-        android:background="#F44336"
         android:text="Large Text"
-        android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:textSize="19sp" />
 
     <Button
@@ -33,9 +32,9 @@
         android:layout_alignParentBottom="true"
         android:layout_marginHorizontal="30dp"
         android:layout_marginBottom="130dp"
-        android:backgroundTint="#023e8a"
+        android:backgroundTint="#e63946"
         android:text="Restart"
-        android:textColor="#ffffff" />
+        android:textColor="@color/white" />
 
     <TextView
         android:id="@+id/tvres2"
@@ -48,11 +47,9 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="58dp"
         android:layout_marginEnd="29dp"
-        android:background="#76FF03"
         android:text="Large Text"
-        android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:textSize="19sp" />
 
     <TextView
@@ -66,11 +63,9 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="53dp"
         android:layout_marginEnd="29dp"
-        android:background="#FFEB3B"
         android:text="Large Text"
-        android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:textSize="19sp" />
 
 </RelativeLayout>

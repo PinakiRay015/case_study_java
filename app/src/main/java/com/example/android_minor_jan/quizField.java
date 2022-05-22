@@ -21,19 +21,19 @@ public class quizField extends AppCompatActivity {
     RadioButton rb1,rb2,rb3,rb4;
 
     String questions[] = {
-            "Which method can be defined only once in a program?",
-            "Which keyword is used by method to refer to the object that invoked it?",
-            "Which of these access specifiers can be used for an interface?",
-            "Which of the following is correct way of importing an entire package ‘pkg’?",
-            "What is the return type of Constructors?",
+            "Which feature of OOPS derives the class from another class?",
+            "Which of the following is not an OOPS concept?",
+            "Which member of the superclass is never accessible to the subclass?",
+            "When does method overloading is determined?",
+            "Java run-time system that chooses to execute the JAVA Bytecode is",
     };
-    String answers[] = {"main method","this","public","import pkg.*","None of the mentioned"};
+    String answers[] = {"Inheritance","Exception","Private","At Compile Time","JVM"};
     String opt[] = {
-            "finalize method","main method","static method","private method",
-            "import","this","catch","abstract",
-            "public","protected","private","All of the mentioned",
-            "Import pkg.","import pkg.*","Import pkg.*","import pkg.",
-            "int","float","void","None of the mentioned",
+            "Inheritance","Data hiding","Polymorphism","Encapsulation",
+            "Encapsulation","Polymorphism","Exception","Abstraction",
+            "Private","Protected","Public","All of the mentioned",
+            "At Runtime","At Compile Time","At Coding Time","At Execution Time",
+            "SDK","JDK","JVM","None of the mentioned",
     };
     int flag=0;
     public static int marks=0,correct=0,wrong=0;

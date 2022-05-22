@@ -13,7 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     EditText nameEntry;
-    Button startButton , aboutButton;
+    Button startButton;
 
 
     @Override
@@ -23,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
         nameEntry = (EditText) findViewById(R.id.nameEntry);
         startButton = (Button) findViewById(R.id.StartButton);
-        aboutButton = (Button) findViewById(R.id.AboutButton);
-
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,12 +41,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        aboutButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext() , about.class);
-                startActivity(intent);
-            }
-        });
     }
 }
